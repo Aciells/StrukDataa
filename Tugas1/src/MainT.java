@@ -2,8 +2,6 @@ import java.util.Scanner;
 
 public class MainT {
 
-    // Method dengan Wildcard (<?>): menerima Customer dengan tipe ID apa pun.
-    // Data hanya dibaca (read-only), tidak diubah.
     public static void displayOrderInfo(Customer<?> customer, FoodOrder order) {
         System.out.println("\n=== Order Information ===");
         System.out.println("Order Code       : " + order.getOrderCode());
@@ -21,7 +19,6 @@ public class MainT {
         System.out.print("Enter Customer Name: ");
         String name = input.nextLine();
 
-        // ID dibaca sebagai Long (sesuai output modul: Customer ID Type : Long)
         long id;
         while (true) {
             System.out.print("Enter Customer ID: ");

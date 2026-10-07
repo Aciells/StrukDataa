@@ -1,7 +1,7 @@
-// Pesanan makanan milik pelanggan
+
 public class FoodOrder {
     private String orderCode;
-    private Customer<?> customer;   // wildcard: ID pelanggan boleh bertipe apa saja
+    private Customer<?> customer;
     private String menuName;
     private FoodCategory category;
 

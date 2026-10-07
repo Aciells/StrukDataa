@@ -1,4 +1,3 @@
-// Generic Class: tipe ID pelanggan ditentukan saat objek dibuat
 public class Customer<T> {
     private String name;
     private T customerId;
